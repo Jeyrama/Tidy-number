@@ -28,3 +28,7 @@ const tidyNumber = n => {
 }
 
 // or
+
+function tidyNumber(n) {
+  return [...n+=''].sort().join('')==n
+}
